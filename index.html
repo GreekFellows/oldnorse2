@@ -18,6 +18,10 @@
 				margin-bottom: 50px;
 			}
 
+			.width600 {
+				width: 600px;
+			}
+
 		</style>
 	</head>
 
@@ -50,9 +54,9 @@
 											<li><a href="#">From English</a></li>
 										</ul>
 									</div>
-									<input type="text" class="form-control" placeholder="for...">
+									<input type="text" class="form-control" placeholder="for..." id="searchinput">
 								</div>
-								<button type="submit" class="btn btn-default">Go!</button>
+								<button type="submit" class="btn btn-default" id="searchgo">Go!</button>
 							</form>
 						</li>
 					</ul>
@@ -60,7 +64,7 @@
 			</div>
 		</nav>
 
-		<div class="wrap100">
+		<div class="wrap100 width600" style="float: left;">
 			<h1>Old Norse.</h1>
 			
 			<p>
@@ -84,6 +88,10 @@
 			<p>
 				Tweet at <a href="https://twitter.com/GreekFellows">@greekfellows</a> for any questions and comments. Or, email him at <pre>some.greek.fellows@hotmail.com</pre>.
 			</p>
+		</div>
+
+		<div class="wrap100" id="searchresults">
+			<h1>Search Results.</h1>
 		</div>
 
 		<script src="jquery-2.1.1.min.js"></script>

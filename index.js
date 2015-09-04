@@ -68,8 +68,6 @@ $(document).ready(function() {
 	}
 
 	$("#searchgo").click(function() {
-		makeNounEntryDiv(0);
-
 		if (allJSONLoaded) {
 			// first search in nouns
 			var searchText = $("#searchinput").val();

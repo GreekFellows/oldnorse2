@@ -1,8 +1,49 @@
 {
 	"konungr": {
-		"def": "king"
+		"pos": "noun",
+		"strong": true,
+		"gender": "masc.",
+		"decltype": "I",
+
+		"defs": ["king."],
+
+		"declension": {
+			"singular": {
+				"nominative": "konungr",
+				"genitive": "konungs",
+				"dative": "konungi",
+				"accusative": "konung"
+			},
+			"plural": {
+				"nominative": "konungar",
+				"genitive": "konunga",
+				"dative": "konungum",
+				"accusative": "konunga"
+			}
+		}
 	},
+
 	"sonr": {
-		"def": "son"
+		"pos": "noun",
+		"strong": true,
+		"gender": "masc.",
+		"decltype": "?",
+
+		"defs": ["son."],
+
+		"declension": {
+			"singular": {
+				"nominative": "sonr",
+				"genitive": "sonar",
+				"dative": "syni",
+				"accusative": "son"
+			},
+			"plural": {
+				"nominative": "synir",
+				"genitive": "sona",
+				"dative": "sonum",
+				"accusative": "sonu"
+			}
+		}
 	}
 }
